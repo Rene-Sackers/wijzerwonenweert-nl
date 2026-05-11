@@ -1,3 +1,10 @@
 .title_wrapper { text-shadow: 0 0 14px #0000004d; }
 .toggle_wrapper--contain { background-color: transparent !important; }
 .toggle_wrapper--contain .toggle_btn { background-color: rgb(59, 59, 59) !important }
+.header_wrapper {
+  height: 850px;
+  max-height: 75vh
+}
+.scroll_down {
+  color: #FFF !important;
+}
