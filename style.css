@@ -1,10 +1,42 @@
 .title_wrapper { text-shadow: 0 0 14px #0000004d; }
 .toggle_wrapper--contain { background-color: transparent !important; }
 .toggle_wrapper--contain .toggle_btn { background-color: rgb(59, 59, 59) !important }
+.scroll_down {
+  color: #FFF !important;
+}
+
 .header_wrapper {
+  min-height: 630px;
   height: 850px;
   max-height: 75vh
 }
-.scroll_down {
-  color: #FFF !important;
+#logo {
+    left: 0;
+    right: 0;
+    top: 100px;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1250px) {
+    #logo {
+        top: 0;
+    }
+}
+
+@media screen and (min-width: 651px) and (max-width: 767px) {
+    #logo {
+        top: 0;
+        width: 405px !important;
+        height: 405px !important;
+    }
+}
+
+@media screen and (max-height: 480px), screen and (max-width: 650px) {
+    #logo {
+        top: 0;
+        width: 330px !important;
+        height: 330px !important;
+    }
 }
